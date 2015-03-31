@@ -1,0 +1,54 @@
+.bf-col {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.bf-col:first-child:nth-last-child(1) {
+  width: 100%;
+}
+.bf-col:first-child:nth-last-child(2),
+.bf-col:first-child:nth-last-child(2) ~ .bf-col {
+  width: 50%;
+}
+.bf-col:first-child:nth-last-child(3),
+.bf-col:first-child:nth-last-child(3) ~ .bf-col {
+  width: 33.33333333%
+}
+.bf-col:first-child:nth-last-child(4),
+.bf-col:first-child:nth-last-child(4) ~ .bf-col {
+  width: 25%;
+}
+.bf-col:first-child:nth-last-child(5),
+.bf-col:first-child:nth-last-child(5) ~ .bf-col {
+  width: 20%;
+}
+.bf-col:first-child:nth-last-child(6),
+.bf-col:first-child:nth-last-child(6) ~ .bf-col {
+  width: 16.66666667%;
+}
+.bf-col:first-child:nth-last-child(7),
+.bf-col:first-child:nth-last-child(7) ~ .bf-col {
+  width: 14.28571429%;
+}
+.bf-col:first-child:nth-last-child(8),
+.bf-col:first-child:nth-last-child(8) ~ .bf-col {
+  width: 12.5%;
+}
+.bf-col:first-child:nth-last-child(9),
+.bf-col:first-child:nth-last-child(9) ~ .bf-col {
+  width: 11.11111111%;
+}
+.bf-col:first-child:nth-last-child(10),
+.bf-col:first-child:nth-last-child(10) ~ .bf-col {
+  width: 10%;
+}
+.bf-col:first-child:nth-last-child(11),
+.bf-col:first-child:nth-last-child(11) ~ .bf-col {
+  width: 9.09090909%;
+}
+.bf-col:first-child:nth-last-child(12),
+.bf-col:first-child:nth-last-child(12) ~ .bf-col {
+  width: 8.33333333%;
+}
